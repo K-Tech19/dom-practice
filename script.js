@@ -80,4 +80,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     hackLink.textContent = 'Hack!'
 
     document.body.appendChild(hackLink)
+
+    myDiv2.addEventListener('click', ()=>{
+        // parent.removeChild(child)
+        document.body.removeChild(hackLink)
+    })
 })
